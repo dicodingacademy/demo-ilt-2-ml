@@ -1,5 +1,5 @@
 def exam_grade(score):
-    if score > 95:
+    if score > 98:
         grade = "Top Score"
     elif score < 60:
         grade = "Pass"
