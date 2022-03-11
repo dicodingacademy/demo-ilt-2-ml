@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
+
 def exam_grade(score):
     if score > 95:
         grade = "Top Score"
-    elif score < 60:
+    elif score >= 60:
         grade = "Pass"
     else:
         grade = "Fail"
