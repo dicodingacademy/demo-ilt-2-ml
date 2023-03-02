@@ -1,10 +1,10 @@
 def exam_grade(score):
     if score > 95:
         grade = "Top Score"
-    elif score < 60:
-        grade = "Pass"
-    else:
+    elif score < 30:
         grade = "Fail"
+    else:
+        grade = "Pass"
     return grade
 
 
